@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gitbit"
+version = "0.1.0"
+description = "Fetch data from FitBit"
+authors = ["Peter Sulcs <peter.sulcs@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.24.0"
+tqdm = "^4.47.0"
+python-dotenv = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.16.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
